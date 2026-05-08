@@ -22,6 +22,9 @@
         <!--1) Kod bloklarına göre -->
         <h5>kod bloklarına göre c# kodunu HTML içinde yazmak</h5>
         <ul>
+
+            
+
             @for (int i = 0; i < 5; i++)
             {
                 <li>@(i + 1)-listesi </li>
@@ -60,6 +63,11 @@
         <hr />
         <h5>Çoklu c# kodunu HTML içinde yazmak</h5>
         @{
+            <a>
+                @{
+                    int a = 1;
+                }
+            </a>
             for (int i = 0; i < 5; i++)
             {
                 int x = i + 1;
@@ -68,7 +76,8 @@
 
             if (true)
             {
-                    
+                int s = 90;
+                double[] fiyatListesi = { 10.5, 20.5, 30.5, 40.5, 50.5 };
             }
 
             int[] sayilar = { 1, 2, 3, 4, 5 };
@@ -87,16 +96,14 @@
                             break;
 
                     }
+
+                    decimal gezegenMesafesi = 1000.5m;
                 }
             
             </div>
             
             double[] fiyatlar = { 10.5, 20.5, 30.5, 40.5, 50.5 };
             
-        }
-
-
-   
         }
 
 
