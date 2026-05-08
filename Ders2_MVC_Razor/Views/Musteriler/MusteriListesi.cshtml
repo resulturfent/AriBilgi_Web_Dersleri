@@ -1,0 +1,65 @@
+﻿@using Ders2_MVC_Razor.Models
+
+@{
+    Layout = null;
+}
+
+@model List<MusteriListModel>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MusteriListesi</title>
+ 
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+
+        <ul>
+            @foreach (var item in ViewBag.Musteriler)
+            {
+                <li>@item</li>
+            }
+
+
+        </ul>
+        <hr />
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>#</td>
+                    <td>Adı</td>
+                    <td>Soyadı</td>
+                    <td>Telefon</td>
+                    <td>Adres</td>
+                    <td>il</td>
+                    <td>ilçe</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Adi</td>
+                        <td>@item.Soyadi</td>
+                        <td>@item.Telefon</td>
+                        <td>@item.Adres</td>
+                        <td>@item.Il</td>
+                        <td>@item.Ilce</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>
