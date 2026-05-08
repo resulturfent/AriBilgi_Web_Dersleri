@@ -6,6 +6,7 @@ namespace Ders2_MVC_Razor.Controllers
     {
         public IActionResult Index()
         {
+            //Razor => html safasında c# kodları yazmak için kullanılan bir teknolojidir
             return View();
         }
 
