@@ -1,3 +1,6 @@
+using Ders4_1_BLL.Servis;
+using Ders4_1_DLL.EntitiesTablolar;
+
 namespace Ders4_1_Web
 {
     public class Program
@@ -8,6 +11,9 @@ namespace Ders4_1_Web
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddScoped<Urunler>();
+            builder.Services.AddScoped<UrunServis>();
 
             var app = builder.Build();
 

@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/KatmanliMimariler/">
+    <File Path="Katmanlı Mimariler Anlatımı.txt" />
     <Project Path="Ders4_1_BLL/Ders4_1_BLL.csproj" Id="f0eb2427-c882-4667-af3f-3544be477b5a" />
     <Project Path="Ders4_1_Core/Ders4_1_Core.csproj" Id="7353a984-cf5e-4587-98a9-2526b73af732" />
     <Project Path="Ders4_1_DLL/Ders4_1_DLL.csproj" Id="11b24e13-5599-4932-b4dd-3a18b62aaf7b" />
