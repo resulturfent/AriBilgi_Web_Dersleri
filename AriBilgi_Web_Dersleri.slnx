@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/CoreMVC/">
+    <Project Path="Ders1_1_MVC/Ders1_1_MVC.csproj" />
+    <Project Path="Ders2_MVC_Razor/Ders2_MVC_Razor.csproj" Id="49db9512-ba24-4a7e-b2f7-083e720d18eb" />
+    <Project Path="Ders3_1_Layout/Ders3_1_Layout.csproj" Id="c2e9b6db-1cc8-4364-8cda-14a08ea642b2" />
+  </Folder>
   <Folder Name="/KatmanliMimariler/">
     <File Path="Katmanlı Mimariler Anlatımı.txt" />
     <Project Path="Ders4_1_BLL/Ders4_1_BLL.csproj" Id="f0eb2427-c882-4667-af3f-3544be477b5a" />
@@ -6,7 +11,4 @@
     <Project Path="Ders4_1_DLL/Ders4_1_DLL.csproj" Id="11b24e13-5599-4932-b4dd-3a18b62aaf7b" />
     <Project Path="Ders4_1_Web/Ders4_1_Web.csproj" Id="0a9c2cee-9137-478c-bf8a-7cada4584fdd" />
   </Folder>
-  <Project Path="Ders1_1_MVC/Ders1_1_MVC.csproj" />
-  <Project Path="Ders2_MVC_Razor/Ders2_MVC_Razor.csproj" Id="49db9512-ba24-4a7e-b2f7-083e720d18eb" />
-  <Project Path="Ders3_1_Layout/Ders3_1_Layout.csproj" Id="c2e9b6db-1cc8-4364-8cda-14a08ea642b2" />
 </Solution>
